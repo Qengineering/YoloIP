@@ -1,6 +1,6 @@
 # YoloIP
 ![output image]( https://qengineering.eu/github/YoloIPAdGitAd.webp )
-## A Raspberry Pi 4, with stand-alone AI, supports multiple IP surveillance cameras.<br>With live feed, email notification and event-triggered GPIO/URL.<br>
+## A Raspberry Pi 4, with stand-alone AI, supports multiple IP surveillance cameras. With live feed, email notification and event-triggered GPIO/URL.<br>
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 
