@@ -1,32 +1,34 @@
 # YoloCam
 ![output image]( https://qengineering.eu/github/YoloIPAdGitAd.webp )
-## A Raspberry Pi 4, with stand-alone AI, supports multiple IP surveillance cameras. With live feed, email notification and event-triggered GPIO/URL.<br>
+## A Raspberry Pi 4, with stand-alone AI, supports multiple IP surveillance cameras.<br>With live feed, email notification and event-triggered GPIO/URL.<br>
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 
 ## Introduction.
-YoloCam is a software package running on a Raspberry Pi 4, 3 or Zero 2 W.<br>
-It transforms the Rpi into a stand-alone AI-powered camera.<br>
-With a deep learning model, it detects objects in the camera scene.<br><br>
-You can define what actions YoloCam performs when it recognizes an object.<br>
-For instance, send you an email. Or make a movie and store it at Gdrive. Or activate one of its GPIO pins.<br>
+YoloIP is a software package running on a Raspberry Pi 4.<br>
+It transforms the Rpi into a stand-alone AI-powered monitor.<br>
+You can connect multiple commercial surveillance IP cameras to the Raspberry Pi.<br> 
+A deep learning model detects objects in the camera scene.<br><br>
+You can define what actions YoloIP performs when it recognizes an object.<br>
+For instance, send you an email. Or activate one of its GPIO pins.<br>
 At the same time, you can view your footage in any browser.<br><br>
 Installation is simple. Just download the software and flash it to an SD card.<br>
 Once inserted into your Raspberry Pi, everything works right away.<br>
 The software comes with the latest Raspberry Pi Bullseye operating system.<br>
 You don't need to be able to program. However, the used C++ source code is available on the image.<br><br>
-Given the many hours of work, we ask you for a small one-time fee for the license (€ 12,50).<br>
+Given the many hours of work, we ask you for a small one-time fee for the license (€ 17,50).<br>
 See our [shop](https://qengineering.eu/shop.html) where we explain how the license works.<br><br> 
-![output image]( https://qengineering.eu/images/YoloCamAdGitScreen.webp )
+![output image]( https://qengineering.eu/github/YoloIPoverview.webp )
 > A red box is a recognized moving object. Blue boxes are recognized stationary objects.
 
 ------------
 
 ## Hardware.
-To get the YoloCam working, you need the following hardware:
+To get the YoloIP working, you need the following hardware:
 - A Raspberry Pi 4, 3B+ or Zero 2W.
-- A cheap RPi V1 camera ([$ 6,62](https://www.reichelt.nl/nl/nl/raspberry-pi-camera-5mp-v1-3-rpi-cam-5mp-p314570.html?&trstct=pos_6&nbc=1)), as the deep learning model only work with small image sizes.
 - An SD-card (min 16 GB) holding all the software.
+
+Obviously, you have some IP camera which you want to monitor.
 
 ------------
 
