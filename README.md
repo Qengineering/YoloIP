@@ -20,14 +20,14 @@ The software comes with the latest Raspberry Pi Bullseye operating system.<br>
 You don't need to be able to program. However, the used C++ source code is available on the image.<br><br>
 Given the many hours of work, we ask you for a small one-time fee for the license (€ 17,50).<br>
 See our [shop](https://qengineering.eu/shop.html) where we explain how the license works.<br><br> 
-![output image]( https://qengineering.eu/github/YoloIPoverview.webp )
+![output image]( https://qengineering.eu/github/YoloIPoverview2.webp )
 > A red box is a recognized moving object. Blue boxes are recognized stationary objects.
 
 ------------
 
 ## Hardware.
 To get the YoloIP working, you need the following hardware:
-- A Raspberry Pi 4, 3B+ or Zero 2W.
+- A Raspberry Pi 4.
 - An SD-card (min 16 GB) holding all the software.
 
 Obviously, you have some IP camera which you want to monitor.
@@ -35,27 +35,20 @@ Obviously, you have some IP camera which you want to monitor.
 ------------
 
 ## Software.
-There are two versions of the YoloIP software. You have to choose which one you want to use.<br><br>
-The _**GPIO**_ version. This version activates the GPIO output pins when a recognized object triggers an event.<br>
-There is a live feed to your browser.<br>
-The GPIO outputs act in real-time. There is no 10-second latency.<br>
-Finally, the GPIO version has the possibility to trigger URLs.<br><br>
-The _**email**_ version. This version sends emails and records movies when a recognized object triggers an event.<br>
-There is a live feed to your browser. It has a latency of 10 seconds due to the HLS streaming, because it takes some time to collect all the information from the stream, get the individual packets and 'glue' them into one video stream. By the way, thanks to this latency, you will receive your emails 5 seconds before the actual movement is visible in your browser so you can log in.<br>The email version lacks the digital zoom function.
-#### Tip.<br>
-Start with the email version if this is your first time using YoloIP. You get a lot of inside information on how everything works, with a detailed email to help you tune your events. And for the price, you can't beat it.
-![output image]( https://qengineering.eu/images/EmailExampleYoloIP2.png )
+For now there is only one version of the YoloIP software, the _**GPIO**_ version.<br> 
+This version activates the GPIO output pins when a recognized object triggers an event. The GPIO outputs act in real-time.<br> 
+At the same time it triggers an email to let you know which object is detected.<br>
+There are live feeds to your browser. Finally, the GPIO version has the possibility to trigger URLs.<br>
+![output image]( https://qengineering.eu/images/EmailExampleYoloCam2.png )
 
 ------------
 
 ## Downloading.
 Select the desired version from the matrix below.
 
-| Model  | email | GPIO |
-| ------------- | :-----:  | :-----:  |
-| Raspberry Pi 4 | [image](https://ln5.sync.com/dl/38b35f330/sp4pcp3z-pktpgbn5-uku9w245-5gm6zze8) | [image](https://ln5.sync.com/dl/03b5a5b30/yxec53ji-ase48mfi-tvevtz57-3bjmc2at) |
-| Raspberry Pi 3B+ | [image](https://ln5.sync.com/dl/27a595fe0/9wyz2hep-52zrhxgk-neqhy8tz-vesmtu79) | [image](https://ln5.sync.com/dl/6f78f8d50/6ecuvbzr-2ycjt8dm-fipxhywb-6fmbmees) |
-| Raspberry Pi Zero 2W | [image](https://ln5.sync.com/dl/61432a2d0/ukhr6gne-q9kyvsks-zb45yrmx-mxiu7pdx)  | [image](https://ln5.sync.com/dl/9a2112190/qqhqdkvg-bz3kyk5h-g4xpdy4x-ybb739u3) |
+| Model  |  GPIO |
+| ------------- | :-----:  |
+| Raspberry Pi 4 | image | 
 
 username: **pi**<br>
 password: **3.14**
@@ -65,7 +58,7 @@ password: **3.14**
 ## Flashing.
 Once the file has been downloaded, you need to flash it to an SD card. Use a good quality SD with a minimum size of 16 GByte for this.<br>
 On the [Raspberry Pi website](https://www.raspberrypi.com/documentation/computers/getting-started.html), you can follow the instructions on how to flash an image.<br><br>
-Obvious, don't select a standard OS, but the file you just downloaded. For instance' `YoloIP_Rpi4_email.xz`.<br><br>
+Obvious, don't select a standard OS, but the file you just downloaded. For instance' `YoloIP_Rpi4_GPIO.img.xz`.<br><br>
 ![output image]( https://qengineering.eu/images/FlashShopRpi.webp )<br><br>
 Instead of the [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe), some people prefer [balenaEtcher](https://www.balena.io/etcher/). It doesn't matter, they all do a perfect job.
 
@@ -73,11 +66,13 @@ Instead of the [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/im
 
 ## First boot.
 Insert your fresh SD card into the slot and powerup your Raspberry Pi.<br>
-Don't be surprised if the initial boot takes a long time. More than three minutes is normal.<br>
-We have let [PiShrink](https://github.com/Drewsif/PiShrink) compress the image and make the download time as short as possible.<br>
-Another advantage of PiShrink is that you can use SD cards with larger sizes than the original 16 GB.<br>
 Because you don't have a license yet, the YoloIP comes with a unique ID to buy the key.<br><br>
-![output image]( https://qengineering.eu/images/YoloIPNoKey.png )<br><br>
+![output image]( https://qengineering.eu/github/YoloIPNoKey.png )<br><br>
+At the same time it shows a most valuable tip; check your cameras!
+Not all the surveillance cameras support the used ONVIF protocol.<br>
+Best to check on forehand if your camera works. It would be a pity if you paid and then your camera turns out to be unusable.<br>
+On the desktop you see a README.pdf with all the instructions on how to setup a camera connection.<br>
+
 Follow the instructions and visit the [check out](https://qengineering.eu/checkout.php) site.<br><br>
 ![output image]( https://qengineering.eu/images/YoloCheckOut.webp )<br><br>
 After a successful payment, you receive an email with the 8-digit key.<br>
