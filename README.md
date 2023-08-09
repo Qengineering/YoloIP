@@ -68,9 +68,9 @@ Instead of the [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/im
 Insert your fresh SD card into the slot and powerup your Raspberry Pi.<br>
 Because you don't have a license yet, the YoloIP comes with a unique ID to buy the key.<br><br>
 ![output image]( https://qengineering.eu/github/YoloIPNoKey.png )<br><br>
-At the same time it shows a most valuable tip; check your cameras!
+At the same time it shows a most valuable tip; check your cameras!<br>
 Not all the surveillance cameras support the used ONVIF protocol.<br>
-Best to check on forehand if your camera works. It would be a pity if you paid and then your camera turns out to be unusable.<br>
+Best to **check on forehand** if your camera works. It would be a pity if you paid and then your camera turns out to be unusable.<br>
 On the desktop you see a README.pdf with all the instructions on how to setup a camera connection.<br>
 
 Follow the instructions and visit the [check out](https://qengineering.eu/checkout.php) site.<br><br>
@@ -85,10 +85,9 @@ It is all very simple and self explanatory.
 ## Preparations.
 Now that you have your license key, a few settings are required for YoloIP to work properly.<br/>
 First of all, you need an internet connection. [This page](https://github.com/Qengineering/RPi-image#wifi) explains how to set up the WiFi connection on your Raspberry Pi.<br><br>
-Only if you have the **email** version, you need the following things to do. The GPIO version need no other settings at this point.
+Only if you like to use the email option, you need the following things to do.
 + You need a Google account to redirect emails and save recorded clips. Since your personal login details are stored in the Raspberry Pi, we recommend a separate Google account for this application. Just for safety reasons.
 + Register your app with Google to get your email password. Follow the instructions on the Wiki page [Email notification](https://github.com/Qengineering/YoloIP/wiki/Email-notification) on how to set email traffic from your Raspberry Pi.
-+ To get the authorization key from Google for gdrive, follow the guide on the Wiki page [Gdrive](https://github.com/Qengineering/YoloIP/wiki/Gdrive-installation#authorization-key). You don't have to install gdrive. It's already on board. You only need the key.
 + Alter the settings to your personal Google account. See for extra information the Wiki page [Settings](https://github.com/Qengineering/YoloIP/wiki/Settings#settings).
   + `cam_name` Give a name to your YoloIP. Especially useful if you have more than one YoloIP working.
   + `email` The email address that receives the notifications. Note, `none` will block the mail traffic, but not the recording
@@ -100,13 +99,8 @@ Only if you have the **email** version, you need the following things to do. The
 ## Triggers.
 The real beauty of YoloIP lies in its ability to generate triggers when objects are detected.<br><br>
 Each recognized object is tested to see if it should trigger an event.<br>
-The event can set or reset an output pin in the case of the GPIO version.<br>
-Either send you an email, or start a recording if you have the email version.<br><br>
-Now it's easy to make a video of your dog chewing your slipper when you're not at home.<br>
-Or a burglar in your backyard, without your cat always setting off the alarm.<br><br>
+The event can set or reset an output pin and send you an email.<br><br>
 The Wiki page [Triggers](https://github.com/Qengineering/YoloIP/wiki/Triggers) gives you all the instructions you need to set the most sophisticated trigger events.<br><br>
-![output image]( https://qengineering.eu/images/YoloIPAdGitAdRpi4_4.webp)
-> YoloIP on a Raspberry Pi 4
 
 ------------
 
