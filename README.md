@@ -48,7 +48,7 @@ Select the desired version from the matrix below.
 
 | Model  |  GPIO |
 | ------------- | :-----:  |
-| Raspberry Pi 4 | image | 
+| Raspberry Pi 4 | [image](https://ln5.sync.com/dl/b61741fd0/ac3uaijn-ic72agn8-65zi3b2u-9x7v63sg) | 
 
 username: **pi**<br>
 password: **3.14**
