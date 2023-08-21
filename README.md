@@ -135,6 +135,8 @@ Our network works amazingly well in everyday use. Even small objects in the back
 | 640x480 | 7 | 0.45 FPS | 1.05 FPS | |
 | 640x480 | 8 | 0.35 FPS | 0.82 FPS | |
 
+The load will be approximately 1.1 Ampere
+
 ------------
 
 ## Final remarks.
