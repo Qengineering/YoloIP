@@ -39,6 +39,7 @@ This version activates the GPIO output pins when a recognized object triggers an
 At the same time it triggers an email to let you know which object is detected.<br>
 There are live feeds in your browser. Finally, it has the possibility to trigger URLs.<br>
 ![output image]( https://qengineering.eu/images/EmailExampleYoloCam2.png )
+> An example of a received email.
 
 ------------
 
