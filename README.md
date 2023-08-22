@@ -125,7 +125,7 @@ Our network works amazingly well in everyday use. Even small objects in the back
 
 | Resolution | Nr of cams | slow | fast | comment |
 | ---------- | :-------:  | --: | --: | ---- |
-| 1920x1080 | 1 | 2.0 FPS | 4.0 FPS  | |
+| 1920x1080 | 1 | 2.25 FPS | 4.5 FPS  | |
 | 1920x1080 | 2 | 0.75 FPS | 1.4 FPS  | POC errors |
 | 640x480 | 1 | 6.0 FPS | 13.0 FPS | |
 | 640x480 | 2 | 2.9 FPS |  6.2 FPS | |
