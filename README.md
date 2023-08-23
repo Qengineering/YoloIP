@@ -24,6 +24,12 @@ See our [shop](https://qengineering.eu/shop.html) where we explain how the licen
 
 ------------
 
+## [YoloCam.](https://github.com/Qengineering/YoloCam)
+You might also be interested in YoloCam. YoloCam works with the RaspiCam. And, just like YoloIP, events trigger the GPIO and send emails. 
+On top of that, it records events (even 5 Sec before the actual trigger) and stores them on USB or at Google GDrive.
+
+------------
+
 ## Hardware.
 To get the YoloIP working, you need the following hardware:
 - A Raspberry Pi 4.
