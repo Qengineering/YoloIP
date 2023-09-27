@@ -44,7 +44,7 @@ For now, there is only one version of the YoloIP software, the _**GPIO**_ versio
 This version activates the GPIO output pins when a recognized object triggers an event. The GPIO outputs act in real time.<br> 
 At the same time it triggers an email to let you know which object is detected.<br>
 There are live feeds in your browser. Finally, it has the possibility to trigger URLs.<br>
-![output image]( https://qengineering.eu/images/EmailExampleYoloCam2.png )
+![output image]( https://qengineering.eu/github/YoloMailPic.webp )
 > An example of a received email.
 
 ------------
