@@ -125,7 +125,7 @@ The Wiki page [Triggers](https://github.com/Qengineering/YoloIP/wiki/Triggers) g
 
 **AP (Average Precision)  - slow : 25.8 %**<br><br>
 **AP (Average Precision)  - fast : 24.1 %**<br><br>
-Although the AP doesn't differ that much between the two, the size of detectable objects does. The 'slow' one recognizes far smaller objects in the background than the 'fast' one. Looking for the car heading for the birdcage in the backyard? You can best use the 'slow' model. The fast model suites your needs if you only have to detect the postman on your lane. 
+Although the AP doesn't differ that much between the two, the size of detectable objects does. The 'slow' one recognizes far smaller objects in the background than the 'fast' one. Looking for the car heading for the birdcage in the backyard? You can best use the 'slow' model. The fast model suits your needs if you only have to detect the postman on your lane. 
 Keep in mind that no deep learning model is perfect. Given the limited computing power of the Raspberry PI, we had to make a compromise.<br>
 Our network works amazingly well in everyday use. Even small objects in the background are recognized correctly. Likewise, half-cut objects at the edge of the image. Yet it sometimes makes mistakes. For example, misinterpreting a truck for a car or bus. An understandable error.<br><br>
 
