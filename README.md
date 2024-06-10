@@ -17,7 +17,7 @@ Installation is simple. Just download the software and flash it to an SD card.<b
 Once inserted into your Raspberry Pi, everything works right away.<br>
 The software comes with the latest Raspberry Pi Bullseye operating system.<br>
 You don't need to be able to program. However, the used C++ source code is available on the image.<br><br>
-Given the many hours of work, we ask you for a small one-time fee for the license (€ 17,50).<br>
+Given the many hours of work, we ask you for a small one-time fee for the license (€ 20,00).<br>
 See our [shop](https://qengineering.eu/shop.html) where we explain how the license works.<br><br> 
 ![output image]( https://qengineering.eu/github/YoloIPoverview2.webp )
 > A red box is a recognized moving object. Blue boxes are recognized stationary objects.
