@@ -129,6 +129,25 @@ Although the AP doesn't differ that much between the two, the size of detectable
 Keep in mind that no deep learning model is perfect. Given the limited computing power of the Raspberry PI, we had to make a compromise.<br>
 Our network works amazingly well in everyday use. Even small objects in the background are recognized correctly. Likewise, half-cut objects at the edge of the image. Yet it sometimes makes mistakes. For example, misinterpreting a truck for a car or bus. An understandable error.<br><br>
 
+#### Raspberry Pi 5 (Bookworm)
+| Resolution | Nr of cams | slow | fast | comment |
+| ---------- | :-------:  | --: | --: | ---- |
+| 1920x1080 | 1 | 25.2 FPS | 17.0 FPS  | |
+| 1920x1080 | 2 | 11.2 FPS | 6.5 FPS  | |
+| 1920x1080 | 3 | 2.4 FPS | 1.22 FPS  | |
+| 1920x1080 | 4 | 1.1 FPS | 0.6 FPS  | |
+| 640x480 | 1 | 25.0 FPS | 25.0 FPS | CCTV is 25 FPS |
+| 640x480 | 2 | 12.5 FPS |  25.0 FPS | CCTV is 25 FPS |
+| 640x480 | 3 | 12.04 FPS | 20.4 FPS | |
+| 640x480 | 4 | 11.5 FPS | 19.1 FPS | |
+| 640x480 | 5 | 8.61 FPS | 5.13 FPS | |
+| 640x480 | 6 | 6.11 FPS | 4.17 FPS | |
+| 640x480 | 7 | 5.10 FPS | 3.70 FPS | |
+| 640x480 | 8 | 4.10 FPS | 3.24 FPS | |
+
+The load will be approximately **2.1** Ampere.<br>
+
+#### Raspberry Pi 4
 | Resolution | Nr of cams | slow | fast | comment |
 | ---------- | :-------:  | --: | --: | ---- |
 | 1920x1080 | 1 | 2.25 FPS | 4.5 FPS  | |
