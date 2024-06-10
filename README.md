@@ -1,12 +1,12 @@
 # YoloIP
 ![output image]( https://qengineering.eu/github/YoloIPAdGitAd.webp )
-## A RPi 4 supporting multiple IP surveillance cameras with stand-alone AI.<br>
+## A RPi 4 / RPi 5 supporting multiple IP surveillance cameras with stand-alone AI.<br>
 **With live feed, email notification and event-triggered GPIO/URL**.<br>
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 
 ## Introduction.
-YoloIP is a software package running on a Raspberry Pi 4.<br>
+YoloIP is a software package running on a Raspberry Pi 4 or 5.<br>
 It transforms the RPi into a stand-alone AI-powered monitor.<br>
 You can connect multiple commercial surveillance IP cameras to the Raspberry Pi.<br> 
 A deep learning model detects objects in the camera scene.<br><br>
@@ -32,7 +32,7 @@ On top of that, it records events (even 5 Sec before the actual trigger) and sto
 
 ## Hardware.
 To get the YoloIP working, you need the following hardware:
-- A Raspberry Pi 4.
+- A Raspberry Pi 4 or 5.
 - An SD card (min 16 GB) holding all the software.
 
 Obviously, you have some IP camera which you want to monitor.
@@ -54,6 +54,7 @@ Select the desired version from the matrix below.
 
 | Model  |  GPIO |
 | ------------- | :-----:  |
+| Raspberry Pi 5 | [image]() | 
 | Raspberry Pi 4 | [image](https://ln5.sync.com/dl/b61741fd0/ac3uaijn-ic72agn8-65zi3b2u-9x7v63sg) | 
 
 username: **pi**<br>
