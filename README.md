@@ -54,7 +54,7 @@ Select the desired version from the matrix below.
 
 | Model  |  GPIO |
 | ------------- | :-----:  |
-| Raspberry Pi 5 | [image]() | 
+| Raspberry Pi 5 | [image](https://ln5.sync.com/dl/f48b0b380/j467kjns-dnahk45h-cahh5uim-u5ffxyed) | 
 | Raspberry Pi 4 | [image](https://ln5.sync.com/dl/b61741fd0/ac3uaijn-ic72agn8-65zi3b2u-9x7v63sg) | 
 
 username: **pi**<br>
