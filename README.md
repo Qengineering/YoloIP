@@ -52,10 +52,10 @@ There are live feeds in your browser. Finally, it has the possibility to trigger
 ## Downloading.
 Select the desired version from the matrix below.
 
-| Model  |  GPIO |
-| ------------- | :-----:  |
-| Raspberry Pi 5 | [image](https://ln5.sync.com/dl/f48b0b380/j467kjns-dnahk45h-cahh5uim-u5ffxyed) | 
-| Raspberry Pi 4 | [image](https://ln5.sync.com/dl/b61741fd0/ac3uaijn-ic72agn8-65zi3b2u-9x7v63sg) | 
+| Model  |  GPIO | SHA256 |
+| ------------- | :-----:  | :----: |
+| Raspberry Pi 5 | [image](https://ln5.sync.com/dl/f48b0b380/j467kjns-dnahk45h-cahh5uim-u5ffxyed) | 93509b618cdc8a6b6b632a4df268d2d3336cf4e90cc5d275bb6cb5faf4f8c82b | 
+| Raspberry Pi 4 | [image](https://ln5.sync.com/dl/b61741fd0/ac3uaijn-ic72agn8-65zi3b2u-9x7v63sg) |  |
 
 username: **pi**<br>
 password: **3.14**
@@ -65,14 +65,14 @@ password: **3.14**
 ## Flashing.
 Once the file has been downloaded, you need to flash it to an SD card. Use a good quality SD with a minimum size of 16 GByte for this.<br>
 On the [Raspberry Pi website](https://www.raspberrypi.com/documentation/computers/getting-started.html), you can follow the instructions on how to flash an image.<br><br>
-Obviously, don't select a standard OS, but the file you just downloaded. For instance `YoloIP_Rpi4_GPIO.img.xz`.<br><br>
+Don't select a standard OS, but the file you just downloaded. For instance `YoloIP_Rpi4_GPIO.img.xz`.<br><br>
 ![output image]( https://qengineering.eu/images/FlashShopRpi.webp )<br><br>
 Instead of the [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe), some people prefer [balenaEtcher](https://www.balena.io/etcher/). It doesn't matter, they all do a perfect job.
 
 ------------
 
 ## First boot.
-Insert your fresh SD card into the slot and powerup your Raspberry Pi.<br>
+Insert your fresh SD card into the slot and power your Raspberry Pi.<br>
 Because you don't have a license yet, the YoloIP comes with a unique ID to buy the key.<br><br>
 ![output image]( https://qengineering.eu/github/YoloIPNoKey.png )<br><br>
 
@@ -81,7 +81,7 @@ Because you don't have a license yet, the YoloIP comes with a unique ID to buy t
 ## Camera check.
 At the same time it shows a most valuable tip; check your cameras!<br>
 Not all the surveillance cameras support the used ONVIF protocol.<br>
-Best to **check on the forehand** if your camera works. It would be a pity if you paid and then your camera turns out to be unusable.<br>
+Best to **check on the forehand** if your camera works. It would be a pity if you paid and your camera turned out to be unusable.<br>
 Our Wiki page [_connecting the camera_](https://github.com/Qengineering/YoloIP/wiki/Connect-the-camera) explains the procedure of how to get the footage from a surveillance camera in your Raspberry Pi.<br>
 On the desktop, you find a README.pdf with the same instructions.<br><br>
 ![output image](https://qengineering.eu/github/TestIPcam2.webp)
